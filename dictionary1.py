@@ -1,0 +1,9 @@
+d={101:'ram',102:34}
+print(d[101])
+print(d.keys())
+print(d.values())
+print(d.items())
+print('****')
+d2={103:'sita'}
+d.update(d2)
+print(d)
